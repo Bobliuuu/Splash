@@ -1,2 +1,4 @@
 # definitely_won-t_change_this_later
-its for shad ok dw about it :)
+dw about it :)
+
+https://raw.githubusercontent.com/Bobliuuu/Splash/main/data.csv
