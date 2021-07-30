@@ -4,9 +4,9 @@ Splash Savers Project For SHAD RU 2021
 
 App Landing Page: https://splashmeterreader.wixsite.com/splash 
 
-Website: [Splash Site](./Splash Site)
+Website: [Splash Site](./Splash%20Site)
 
-Hardware Product: [Splash Reader](./Splash Reader)
+Hardware Product: [Splash Reader](./Splash%20Reader)
 
 Data updated in real time by Github Gist: https://raw.githubusercontent.com/Bobliuuu/Splash/main/data.csv
 
