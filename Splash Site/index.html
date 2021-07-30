@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <title>Splash Site</title>
+    <link href="assets/img/favicon.png" rel="shortcut icon">
+    <link rel="icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/favicon.png" rel="apple-touch-icon">
+
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <script src="http://code.jquery.com/jquery-git2.js"></script>
+
+</head>
+
+<body>
+    <div class="center">
+        <h2> Welcome To Splash Site! </h2>
+        <h3> Saving water, one splash at a time </h3>
+        <img src="assets/img/faviconbig.png" style="width:100px; height: auto;" alt="logo"> <br> <br>
+        <button onclick="document.getElementById('login_id').style.display='block'" style="width:auto;">Login</button>
+        <br> <br> <br>
+    <p style="font-size: 8px;"> Want to skip the install? Login as "John Smith" with email "email@example.com" and password "admin"
+    </div>
+
+    <!--<form>
+        <input type="radio" name="foo" value="1" checked="checked" />
+        <input type="radio" name="foo" value="0" />
+        <input name="bar" value="xxx" />
+        <select name="this">
+          <option value="hi" selected="selected">Hi</option>
+          <option value="ho">Ho</option>
+        </select>
+    </form>-->
+
+
+    <div id="login_id" class="modal">
+    <form class="modal-content animate">
+        <div class="imgcontainer">
+        <span onclick="document.getElementById('login_id').style.display='none'" class="close" title="Close Login">&times;</span>
+            <img id="avatar" src="assets/img/avatar.jpg" alt="Avatar" class="avatar">
+        </div>
+
+        <div class="container">
+        
+        <label for="uname"><b>Name</b></label>
+        <input type="text" placeholder="Enter Name" name="uname" id="uname" required>
+
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+        <label for="pswd"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" id="pswd" name="pswd" required>
+            
+        <button onclick="func();return false;" type="submit">Login</button>
+        <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+        <button type="button" onclick="document.getElementById('login_id').style.display='none'" class="cancelbtn">Cancel</button>
+        <span class="psw"><a href="#"> Forgot password? </a></span>
+        </div>
+    </form>
+</body>
+</html>

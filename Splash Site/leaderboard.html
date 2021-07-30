@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <title>Splash Site</title>
+    <link rel="icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/favicon.png" rel="apple-touch-icon">
+
+    <link rel="stylesheet" href="leaderboard.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="leaderboard.js"></script>
+    <script src="http://code.jquery.com/jquery-git2.js"></script>
+
+</head>
+
+<body>
+    
+    <div class="topnav">
+        <a href="settings.html">Settings</a>
+        <a href="leaderboard.html">Leaderboard</a>
+        <a class="active" href="home.html">Home</a>
+      </div>
+
+    <div class="center">
+        <h2> Welcome To Splash Site! </h2>
+        <h3> Saving water, one splash at a time </h3>
+    </div>
+
+    <div class="w3-container">
+        <h2>Leaderboard</h2>
+        <p> Refresh to update the table! </p>
+      
+        <table class="w3-table" id="lbTable">
+          <tr>
+            <th>Name</th>
+            <th>Gallons</th>
+          </tr>
+          <tr>
+            <td>Peter</td>
+            <td id="rand1"></td>
+          </tr>
+          <tr>
+            <td>Emily</td>
+            <td id="rand2"></td>
+          </tr>
+          <tr>
+            <td>Samuel</td>
+            <td id="rand3"></td>
+          </tr>
+          <tr>
+            <td>Eliot</td>
+            <td>500</td>
+          </tr>
+          <tr>
+            <td>Carina</td>
+            <td>200</td>
+          </tr>
+          <tr>
+            <td>You</td>
+            <td>400</td>
+          </tr>
+        </table>
+    </div>
+    <!-- <button onclick="sortTable()"> Click Me! </p> DEBUG RAND -->
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+
+    "users": [
+
+        {
+            "uname": "John", "email": "email1", "pswd": "pswd1"
+        }
+
+        {
+            "uname": "Emily", "email": "email2", "pswd": "pswd2"
+        }
+
+        {
+            "uname": "Peter", "email": "email3", "pswd": "pswd3"
+        }
+        
+    ]
+
+}
