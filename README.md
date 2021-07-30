@@ -1,12 +1,14 @@
 # Splash Savers
 
-Splash Savers Project For SHAD RU 2021
+Splash Savers Project For SHAD RU 2021 (WIP)
 
 App Landing Page: https://splashmeterreader.wixsite.com/splash 
 
 Website: [Splash Site](./Splash%20Site)
 
 Hardware Product: [Splash Reader](./Splash%20Reader)
+
+Business Plan: TBD
 
 Data updated in real time by Github Gist: https://raw.githubusercontent.com/Bobliuuu/Splash/main/data.csv
 
