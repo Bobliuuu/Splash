@@ -8,9 +8,9 @@ Website: [Splash Site](./Splash%20Site)
 
 Hardware Product: [Splash Reader](./Splash%20Reader)
 
-Business Plan: (PDF)[Copy of Implementation TimeLine.pdf]
+Business Plan: [PDF](./Copy%20of%20Implementation%20TimeLine.pdf)
 
-Award: (PDF)[DT 1_Jerry Zhu.pdf]
+Award: [PDF](DT%201_Jerry%20Zhu.pdf)
 
 Data updated in real time by Github Gist: https://raw.githubusercontent.com/Bobliuuu/Splash/main/data.csv
 
